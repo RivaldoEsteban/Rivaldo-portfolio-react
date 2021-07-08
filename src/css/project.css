@@ -1,0 +1,56 @@
+.project-container {
+  width: calc(50% - 2rem);
+  box-sizing: border-box;
+  display: flex;
+}
+
+.project {
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  margin: auto;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-gif {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.project-clip-path img {
+  object-fit: cover;
+  border: 1px solid red;
+  width: 150px;
+  height: 80px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-buttons > * {
+  width: calc(50%);
+  padding: 12px 24px;
+  text-align: center;
+}
+
+.view-project-button {
+  color: white;
+  background-color: #ff8906;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+.view-code-button {
+  cursor: pointer;
+  border: 1px solid #ff8906;
+  color: #ff8906;
+}

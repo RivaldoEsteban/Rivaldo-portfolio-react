@@ -1,0 +1,14 @@
+.networks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.networks a i {
+  font-size: 2.5rem;
+}
+.networks a {
+  border: none;
+  background: none;
+  color: white;
+}

@@ -1,0 +1,73 @@
+.contacto-container {
+  background: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+  padding: 50px 20px 800px;
+  position: relative;
+}
+
+.contacto-content {
+  width: 500px;
+  padding: 40px 20px;
+  margin: auto;
+  border-radius: 0.5rem;
+  background: #141e30;
+  background: -webkit-linear-gradient(to bottom, #243b55, #141e30);
+  background: linear-gradient(to bottom, #243b55, #141e30);
+}
+
+.contact-title {
+  color: white;
+  font: 700 normal 48px/56px var(--fontTitle);
+  margin-top: 0;
+}
+
+.contact-text {
+  color: #a7a9be;
+}
+
+.contacto-content input {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.contacto-content button {
+  width: 100%;
+  padding: 1rem;
+  background: #ff8906;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  font: 700 normal 1rem/20px var(--fontText);
+}
+
+.contacto-content button a {
+  color: white;
+  font: 700 normal 1rem/20px var(--fontText);
+}
+
+.vector {
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.gif-programador {
+  height: 700px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .vector {
+  }
+}
