@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Rivaldo-portfolio-react/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Rivaldo-portfolio-react/static/js/main.036335cd.chunk.js",
+    "main.js.map": "/Rivaldo-portfolio-react/static/js/main.036335cd.chunk.js.map",
+    "runtime-main.js": "/Rivaldo-portfolio-react/static/js/runtime-main.3cdbfbca.js",
+    "runtime-main.js.map": "/Rivaldo-portfolio-react/static/js/runtime-main.3cdbfbca.js.map",
+    "static/js/2.2ff8d97a.chunk.js": "/Rivaldo-portfolio-react/static/js/2.2ff8d97a.chunk.js",
+    "static/js/2.2ff8d97a.chunk.js.map": "/Rivaldo-portfolio-react/static/js/2.2ff8d97a.chunk.js.map",
+    "static/js/3.f04af21e.chunk.js": "/Rivaldo-portfolio-react/static/js/3.f04af21e.chunk.js",
+    "static/js/3.f04af21e.chunk.js.map": "/Rivaldo-portfolio-react/static/js/3.f04af21e.chunk.js.map",
+    "index.html": "/Rivaldo-portfolio-react/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Rivaldo-portfolio-react/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.2ff8d97a.chunk.js.LICENSE.txt": "/Rivaldo-portfolio-react/static/js/2.2ff8d97a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Rivaldo-portfolio-react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cdbfbca.js",
+    "static/js/2.2ff8d97a.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.036335cd.chunk.js"
+  ]
+}
