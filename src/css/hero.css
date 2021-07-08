@@ -1,0 +1,66 @@
+.hero-image {
+  height: inherit;
+}
+.hero-image img {
+  width: calc(50% + 100px);
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+  height: inherit;
+  z-index: 1;
+}
+.hero-right {
+  height: inherit;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.clip-path {
+  clip-path: polygon(0% 0%, calc(100% - 100px) 0%, 100% 100%, 0 100%);
+  background: #0f0e17;
+  height: inherit;
+  width: 50%;
+  z-index: 3;
+  position: relative;
+}
+.hero-content {
+  margin: 20px 120px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+  color: white;
+}
+.hero-p {
+  margin: 0;
+  color: #f25f4c;
+  font-size: 15px;
+}
+h1 {
+  font: 700 normal 55px/60px var(--fontTitle);
+  margin: 0;
+  margin: 1rem 0 0 0;
+}
+.me-description {
+  margin: 0 0 1rem 0;
+  color: rgb(248, 248, 248);
+  font-size: 18px;
+}
+strong {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.curriculum {
+  background: #f25f4c;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  margin: 1rem auto 2rem;
+  color: white;
+  font: 700 normal 1rem/18px var(--fontTitle);
+}
+@media (max-width: 850px) {
+  h1 {
+    font-size: 48px;
+  }
+}
