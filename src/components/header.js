@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import "../css/header.css";
+import { Link } from "react-router-dom";
+
 const HeaderStyled = styled.header`
   background: #0f0e17;
   color: white;
@@ -21,9 +23,9 @@ function Header() {
     <HeaderStyled>
       <div className="wrapper">
         <div className="header-logo">
-          <a href="#home">
+          <Link to="/">
             <img src="./images/leon.svg" alt="logo" width="50" height="50" />
-          </a>
+          </Link>
         </div>
       </div>
       <nav className="header-nav">
