@@ -23,7 +23,7 @@ function Header() {
     <HeaderStyled>
       <div className="wrapper">
         <div className="header-logo">
-          <Link to="/">
+          <Link to="/Rivaldo-portfolio-react/">
             <img src="./images/leon.svg" alt="logo" width="50" height="50" />
           </Link>
         </div>
