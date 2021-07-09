@@ -7,7 +7,7 @@
 }
 
 .project-list-container {
-  padding: 50px 20px;
+  padding: 80px 20px;
 }
 
 .project-list-title {
@@ -28,8 +28,30 @@
   font: 700 normal 18px/20px var(--fontText);
 }
 
+@media (max-width: 1400px) {
+  .project-list-content {
+    justify-content: space-evenly;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-list-content {
+    justify-content: space-evenly;
+  }
+  .project-container {
+    width: 600px;
+  }
+}
+
 @media (max-width: 678px) {
   .project-list-content {
     justify-content: center;
+  }
+  .project {
+    width: 100%;
+  }
+  .project-container {
+    width: 100%;
   }
 }

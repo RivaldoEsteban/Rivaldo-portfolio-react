@@ -8,7 +8,11 @@ export default function ProjectList() {
     console.log("hola");
   }
   return (
-    <section className="project-list-container" aria-label="project-list">
+    <section
+      className="project-list-container"
+      aria-label="project-list"
+      id="projects"
+    >
       <div className="wrapper">
         <div>
           <h2 className="project-list-title">Proyectos</h2>

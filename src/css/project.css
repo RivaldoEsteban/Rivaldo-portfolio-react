@@ -16,6 +16,10 @@
 .project-content {
   padding: 20px;
   background: linear-gradient(to left, #ecf1f5, #eef2f3);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .project-gif {
@@ -62,6 +66,7 @@
   margin: 1rem 0;
   font-weight: 600;
   opacity: 0.7;
+  /* height: 200px; */
   /* color: #7e82b3; */
 }
 

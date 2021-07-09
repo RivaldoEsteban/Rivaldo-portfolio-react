@@ -59,8 +59,52 @@ strong {
   color: white;
   font: 700 normal 1rem/18px var(--fontTitle);
 }
+
 @media (max-width: 850px) {
   h1 {
     font-size: 48px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-image {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  .hero-image img {
+    position: relative;
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+  }
+  .clip-path {
+    position: relative;
+    width: 100%;
+    clip-path: none;
+    height: initial;
+  }
+  .hero-content {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .me-description {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  strong {
+    text-align: center;
+    display: block;
+  }
+  .hero-p {
+    text-align: center;
   }
 }

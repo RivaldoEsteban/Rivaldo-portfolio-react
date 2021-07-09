@@ -4,6 +4,9 @@ import "../css/header.css";
 const HeaderStyled = styled.header`
   background: #0f0e17;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   @media (max-width: 678px) {
     .header-nav ul {
       gap: 0;
