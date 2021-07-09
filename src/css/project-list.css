@@ -10,7 +10,14 @@
   padding: 50px 20px;
 }
 
+.project-list-title {
+  font: 400 normal 32px/37px var(--fontTitle);
+  border-bottom: 1px solid black;
+}
+
 .see-more {
+  margin: auto;
+  display: block;
   background: #ff8906;
   color: white;
   border: none;
@@ -19,4 +26,10 @@
   margin: 50px auto 0;
   border-radius: 0.8rem;
   font: 700 normal 18px/20px var(--fontText);
+}
+
+@media (max-width: 678px) {
+  .project-list-content {
+    justify-content: center;
+  }
 }

@@ -4,6 +4,13 @@ import "../css/header.css";
 const HeaderStyled = styled.header`
   background: #0f0e17;
   color: white;
+  @media (max-width: 678px) {
+    .header-nav ul {
+      gap: 0;
+      justify-content: space-around;
+      height: 40px;
+    }
+  }
 `;
 
 function Header() {

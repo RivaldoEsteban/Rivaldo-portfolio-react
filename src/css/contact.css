@@ -67,7 +67,17 @@
   width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
+  .contacto-content {
+    width: calc(100% - 40px);
+  }
+  .gif-programador {
+    height: 500px;
+  }
   .vector {
+    bottom: 0;
+  }
+  .contacto-container {
+    padding-bottom: 550px;
   }
 }

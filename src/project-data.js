@@ -135,7 +135,7 @@ const projectData = [
   {
     title: "Nemium",
     description:
-      "Este proyecto lo realice tomando el curso : Curso ensencial de HTML Y CSS de  https://leonidasesteban.com/aprender/html-css-fundamentos",
+      "Este proyecto lo realice tomando el curso : Curso ensencial de HTML Y CSS de  https://leonidasesteban.com/aprender/html-css-fundamentos, practicando estructura y buenas practicas",
     background: "background-project/nemium.png",
     gif: "gif/nemium.gif",
     linkProject: "https://rivaldoesteban.github.io/Project-Nemium/nemiumA.html",

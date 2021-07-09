@@ -11,16 +11,16 @@ export default function ProjectList() {
     <section className="project-list-container" aria-label="project-list">
       <div className="wrapper">
         <div>
-          <h2 id="projects">Estos son mis proyectos</h2>
+          <h2 className="project-list-title">Proyectos</h2>
           <div className="project-list-content">
             {projectData.map((project, id) => {
               return <Project project={project} key={id} />;
             })}
-            <button className="see-more" onClick={handleProjects}>
-              Ver más
-            </button>
           </div>
         </div>
+        <button className="see-more" onClick={handleProjects}>
+          Ver más
+        </button>
       </div>
     </section>
   );

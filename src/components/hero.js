@@ -8,6 +8,53 @@ const HeroStyled = styled.section`
   display: flex;
   background: #0f0e17;
   position: relative;
+  @media (max-width: 678px) {
+    display: block;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    height: initial;
+    .hero-image {
+      width: 300px;
+      height: 300px;
+      margin: auto;
+    }
+    .hero-image img {
+      position: relative;
+      height: inherit;
+      width: inherit;
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+    }
+    .clip-path {
+      position: relative;
+      width: 100%;
+      clip-path: none;
+      height: initial;
+    }
+    .hero-content {
+      display: block;
+      margin: auto;
+      margin-top: 2rem;
+    }
+    .me-description {
+      margin: 1rem 0;
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      margin: auto;
+    }
+    strong {
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+    .hero-p {
+      margin: auto;
+    }
+  }
 `;
 
 function Hero() {
