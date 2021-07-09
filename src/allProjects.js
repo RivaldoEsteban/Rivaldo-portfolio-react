@@ -1,4 +1,4 @@
-const projectData = [
+const allProjects = [
   {
     title: "Spotifu",
     description:
@@ -144,4 +144,4 @@ const projectData = [
   },
 ];
 
-export default projectData;
+export default allProjects;

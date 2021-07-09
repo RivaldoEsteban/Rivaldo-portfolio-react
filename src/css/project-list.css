@@ -1,9 +1,9 @@
 .project-list-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
   margin: 50px 0;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .project-list-container {

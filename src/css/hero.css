@@ -34,7 +34,8 @@
 .hero-p {
   margin: 0;
   color: #f25f4c;
-  font-size: 15px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 h1 {
   font: 700 normal 55px/60px var(--fontTitle);

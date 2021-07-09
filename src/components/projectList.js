@@ -1,12 +1,11 @@
-import React from "react";
-import Project from "./project";
-import projectData from "../project-data";
+import React, { useState } from "react";
+import AllProjects from "./allProjects";
+import BestProjects from "./bestProjects";
 import "../css/project-list.css";
 
 export default function ProjectList() {
-  function handleProjects() {
-    console.log("hola");
-  }
+  const [state, setState] = useState("");
+  console.log(state);
   return (
     <section
       className="project-list-container"
@@ -16,15 +15,12 @@ export default function ProjectList() {
       <div className="wrapper">
         <div>
           <h2 className="project-list-title">Proyectos</h2>
-          <div className="project-list-content">
-            {projectData.map((project, id) => {
-              return <Project project={project} key={id} />;
-            })}
-          </div>
+          {state === "bestProjects" ? (
+            <BestProjects setState={setState} />
+          ) : (
+            <AllProjects setState={setState} />
+          )}
         </div>
-        <button className="see-more" onClick={handleProjects}>
-          Ver más
-        </button>
       </div>
     </section>
   );
