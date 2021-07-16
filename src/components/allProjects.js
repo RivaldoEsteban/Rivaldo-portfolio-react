@@ -14,9 +14,6 @@ export default function AllProjects({ setState }) {
           return <Project project={project} key={id} />;
         })}
       </div>
-      <button className="see-more" onClick={all}>
-        Ver más
-      </button>
     </>
   );
 }

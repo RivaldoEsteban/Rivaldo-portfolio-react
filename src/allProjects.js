@@ -2,7 +2,7 @@ const allProjects = [
   {
     title: "Spotifu",
     description:
-      "Spotifu plataforma de música, escoge la playlist que quieras y disfruta de su contenido. Cada canción es especial y te hara vibrar segundo a segundo.",
+      "Spotifu plataforma de música. Escoge la playlist que quieras y disfruta de su contenido. Cada canción es especial y te hara vibrar segundo a segundo.",
     background: "background-project/spotifu.png",
     gif: "gif/spotifu.gif",
     linkProject: "https://github.com/RivaldoEsteban/Spotifu-react",
@@ -52,7 +52,7 @@ const allProjects = [
   {
     title: "Cuenta regresiva",
     description:
-      "Temporizador de cuenta regresiva en vivo, pon la fecha futura y espera a que el tiempo se completa, este proyecto fue creado para aprender a usar new Datee",
+      "Temporizador de cuenta regresiva en vivo, pon la fecha futura y espera a que el tiempo se completa. Este proyecto fue creado para aprender a usar new Date",
     background: "background-project/countdown.png",
     gif: "gif/countdown.gif",
     linkProject:
@@ -63,7 +63,7 @@ const allProjects = [
   {
     title: "Sidebar",
     description:
-      "El sidebar es un componente comun en una página web y con este proyecto se trato de simular lo mas posible la animacion y las redirecciones ",
+      "Este componente es muy útil porque ayuda al usuario a navegar entre los distintos campos de la página.",
     background: "background-project/sidebar.png",
     gif: "gif/sidebar.gif",
     linkProject:
@@ -72,9 +72,9 @@ const allProjects = [
     id: "project-7",
   },
   {
-    title: "Reproductor de video",
+    title: "Video player",
     description:
-      "Con este proyecto se logro aprender a usar los metodos de video, y logre pausar, reproducir,adelantar,retroceder y una barra del tiempo actual del video funcional.",
+      "Este reproductor me ayudo a entender el uso de los metodos de una etiqueta de video. Reproduce, pausa, retrodece y adelanta.",
     background: "background-project/video.png",
     gif: "gif/video.gif",
     linkProject: "https://rivaldoesteban.github.io/video-componnet/index.html",
@@ -84,7 +84,7 @@ const allProjects = [
   {
     title: "Hero component",
     description:
-      "El hero en un proyecto es importante porque es la forma de implementar imágenes y textos atractivos para el usuario. ",
+      "Este componente es fundamental a todo sitio web ya que alberga imágenes y textos llamativos. ",
     background: "background-project/hero.png",
     gif: "gif/hero.gif",
     linkProject: "https://rivaldoesteban.github.io/hero-component/index.html",
@@ -94,7 +94,7 @@ const allProjects = [
   {
     title: "Calculadora",
     description:
-      "Este proyecto me sirvio para ser mas logico y replicar las acciones dee una calculadora. Haz tus operaciones.",
+      "Realiza tus sumas,restas, divisiones y multiplicaciones. Diviertete con este pequeño proyecto. ",
     background: "background-project/calculator.png",
     gif: "gif/calculator.gif",
     linkProject:
@@ -105,7 +105,7 @@ const allProjects = [
   {
     title: "Calec",
     description:
-      "Calel es su centro de programación de reuniones de manera profesional y eficiente y elimina el problema del intercambio de correos electrónicos para que pueda dedicar más tiempo a su trabajo.",
+      "Calec dedicado a programar reunione. Divertida maqueta donde puse en practica un poco mas de HTML y CSS",
     background: "background-project/calel.png",
     gif: "gif/calel.gif",
     linkProject: "https://rivaldoesteban.github.io/Project-Calel/",
@@ -115,7 +115,7 @@ const allProjects = [
   {
     title: "Striped",
     description:
-      "Millones de empresas de todos los tamaños, desde nuevas empresas hasta grandes empresas, utilizan el software y las API de Stripe para aceptar pagos, enviar pagos y administrar sus negocios en línea.",
+      "Striped brinda Sofware y API para aceptar pagos a diversas empresas en todo el mundo. Eso es una maqueta HTML y CSS.",
     background: "background-project/striped.png",
     gif: "gif/striped.gif",
     linkProject: "https://rivaldoesteban.github.io/project-striped/index.html",
@@ -125,7 +125,7 @@ const allProjects = [
   {
     title: "Skyline",
     description:
-      "El primer editor completamente potenciado por inteligencia artificial. Mas posibilidades , menos rutinas y sin barreras de aprendisaje.",
+      "Edición de fotos con inteligencia artificial. Esta es una maqueta hecha en HTML y CSS.",
     background: "background-project/skyline.png",
     gif: "gif/skyline.gif",
     linkProject: "https://rivaldoesteban.github.io/project-skyline/index.html",
@@ -135,7 +135,7 @@ const allProjects = [
   {
     title: "Nemium",
     description:
-      "Este proyecto lo realice tomando el curso : Curso ensencial de HTML Y CSS de  https://leonidasesteban.com/aprender/html-css-fundamentos, practicando estructura y buenas practicas",
+      "Este es un proyecto hecho con HTML y CSS donde se puso en práctica buenas practicas y buena semántica.",
     background: "background-project/nemium.png",
     gif: "gif/nemium.gif",
     linkProject: "https://rivaldoesteban.github.io/Project-Nemium/nemiumA.html",

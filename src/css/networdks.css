@@ -1,14 +1,34 @@
 .networks {
   display: flex;
-  justify-content: center;
   gap: 2rem;
+  justify-content: center;
 }
 
 .networks a i {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .networks a {
   border: none;
   background: none;
   color: white;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.networks button {
+  border: none;
+  background: none;
+  /* background: #f25f4c; */
+  color: white;
+  padding: 5px 5px;
+  border-radius: 0.25rem;
+}
+
+.networks i {
+  font-size: 2rem;
 }

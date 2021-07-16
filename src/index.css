@@ -1,3 +1,5 @@
+@import "./css/icons.css";
+
 :root {
   --fontTitle: "Nunito", sans-serif;
   --fontText: "Lato", sans-serif;
@@ -30,6 +32,7 @@ p {
 
 button {
   cursor: pointer;
+  border-radius: 0.25rem;
 }
 
 button:active {

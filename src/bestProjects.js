@@ -2,7 +2,7 @@ const bestProjects = [
   {
     title: "Spotifu",
     description:
-      "Spotifu plataforma de música, escoge la playlist que quieras y disfruta de su contenido. Cada canción es especial y te hara vibrar segundo a segundo.",
+      "Spotifu plataforma de música. Escoge la playlist que quieras y disfruta de su contenido. Cada canción es especial y te hara vibrar segundo a segundo.",
     background: "background-project/spotifu.png",
     gif: "gif/spotifu.gif",
     linkProject: "https://github.com/RivaldoEsteban/Spotifu-react",
