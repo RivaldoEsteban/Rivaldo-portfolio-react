@@ -4,8 +4,7 @@ import BestProjects from "./bestProjects";
 import "../css/project-list.css";
 
 export default function ProjectList() {
-  const [state, setState] = useState("");
-  console.log(state);
+  const [state, setState] = useState("project");
   return (
     <section
       className="project-list-container"
@@ -15,7 +14,7 @@ export default function ProjectList() {
       <div className="wrapper">
         <div>
           <h2 className="project-list-title">Proyectos</h2>
-          {state === "bestProjects" ? (
+          {state === "project" ? (
             <BestProjects setState={setState} />
           ) : (
             <AllProjects setState={setState} />

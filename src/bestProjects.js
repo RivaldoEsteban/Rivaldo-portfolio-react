@@ -5,14 +5,14 @@ const bestProjects = [
       "Spotifu plataforma de música. Escoge la playlist que quieras y disfruta de su contenido. Cada canción es especial y te hara vibrar segundo a segundo.",
     background: "background-project/spotifu.png",
     gif: "gif/spotifu.gif",
-    linkProject: "https://github.com/RivaldoEsteban/Spotifu-react",
-    linkRepo: "https://rivaldoesteban.github.io/Spotifu-react/",
+    linkProject: "https://rivaldoesteban.github.io/Spotifu-react/",
+    linkRepo: "https://github.com/RivaldoEsteban/Spotifu-react",
     id: "project-1",
   },
   {
     title: "Block Master",
     description:
-      "Block Master plataforma que te muestra las peliculas disponibles, puedes filtrar por nombre , mejor puntuadas y menos puntuadas.",
+      "Block Master plataforma que te muestra las películas del momento. Puedes filtrar por nombre , mejor puntuadas y menos puntuadas.",
     background: "background-project/block-master.png",
     gif: "gif/block-master.gif",
     linkProject: "https://rivaldoesteban.github.io/Block-Master-react/",
@@ -32,11 +32,11 @@ const bestProjects = [
   {
     title: "Marvol",
     description:
-      "Marvol te trae lo mejor de los comics para que los disfrutes. Ten una breve descripcion del comic y quienes lo crearon. ",
+      "Marvol te trae lo mejor de los comics. Ten una breve descripcion del comic y quienes lo crearon. ",
     background: "background-project/marvol.png",
     gif: "gif/marvol.gif",
-    linkProject: "https://github.com/RivaldoEsteban/marvol-react",
-    linkRepo: "https://rivaldoesteban.github.io/marvol-react/",
+    linkProject: "https://rivaldoesteban.github.io/marvol-react/",
+    linkRepo: "https://github.com/RivaldoEsteban/marvol-react",
     id: "project-4",
   },
   {
@@ -50,13 +50,14 @@ const bestProjects = [
     id: "project-5",
   },
   {
-    title: "Skyline",
+    title: "Cuenta regresiva",
     description:
-      "El primer editor completamente potenciado por inteligencia artificial. Mas posibilidades , menos rutinas y sin barreras de aprendisaje.",
-    background: "background-project/skyline.png",
-    gif: "gif/skyline.gif",
-    linkProject: "https://rivaldoesteban.github.io/project-skyline/index.html",
-    linkRepo: "https://github.com/RivaldoEsteban/project-skyline",
+      "Temporizador de cuenta regresiva en vivo. Pon la fecha y espera a que el tiempo se complete. Este proyecto fue creado para aprender a usar new Date",
+    background: "background-project/countdown.png",
+    gif: "gif/countdown.gif",
+    linkProject:
+      "https://rivaldoesteban.github.io/countdown-component/index.html",
+    linkRepo: "https://github.com/RivaldoEsteban/countdown-component",
     id: "project-6",
   },
 ];

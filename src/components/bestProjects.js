@@ -12,10 +12,10 @@ export default function BestProjects({ setState }) {
         {bestProjects.map((project, id) => {
           return <Project project={project} key={id} />;
         })}
+        <button className="see-more" onClick={best}>
+          Ver más
+        </button>
       </div>
-      <button className="see-more" onClick={best}>
-        Ver más
-      </button>
     </>
   );
 }
