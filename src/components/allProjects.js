@@ -2,11 +2,7 @@ import React from "react";
 import allProjects from "../allProjects";
 import Project from "./project";
 
-export default function AllProjects({ setState }) {
-  function all() {
-    setState("bestProjects");
-  }
-
+export default function AllProjects() {
   return (
     <>
       <div className="project-list-content">

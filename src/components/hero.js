@@ -37,7 +37,7 @@ function Hero() {
                   </p>
                   <Networds />
                   <a
-                    href="images/leon.svg"
+                    href="images/rivaldo-esteban-cv.pdf"
                     download="rivaldo-esteban-curriculum"
                     className="curriculum"
                   >
