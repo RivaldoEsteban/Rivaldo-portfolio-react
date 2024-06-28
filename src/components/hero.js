@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Networds from "./networks";
 import "../css/hero.css";
 const HeroStyled = styled.section`
-  width: 100vw;
+  width: 100%;
   display: flex;
   background: #0f0e17;
   position: relative;
